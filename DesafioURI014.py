@@ -17,8 +17,8 @@ ano = Vida / 365
 mes = (Vida % 365) / 30
 dias = (Vida % 365) % 30
 
-print('%.0f' % ano)
-print('%.0f' % mes)
-print('%.0f' % dias)
+print('%.0f' % ano + 'ano(s)')
+print('%.0f' % mes + 'mes(es)')
+print('%.0f' % dias + 'dia(s)')
 
 
